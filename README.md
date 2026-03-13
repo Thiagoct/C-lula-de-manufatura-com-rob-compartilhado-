@@ -30,4 +30,4 @@ Cada célula possui um buffer com capacidade estrita de 2 slots.
 A fábrica possui um armazém de saída com 4 slots.
 O componente opera sob lógica de rejeição de hardware: o depósito de qualquer peça exige a aquisição/consumo prévio de uma "vaga". Se o contador de vagas chegar a zero, qualquer tentativa de depósito pelo robô é mecanicamente bloqueada, forçando-o a aguardar até que um agente externo libere espaço, garantindo a integridade física da planta.
 
-Link para vídeo sobre o projeto: https://youtu.be/4KS1CGHicLI?si=iXPnqQ64d11o2oT7
+Link para vídeo sobre o projeto: https://youtu.be/l0ZAiS2NPDw

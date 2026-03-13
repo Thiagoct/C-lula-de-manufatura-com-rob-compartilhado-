@@ -7,8 +7,8 @@ NUM_CELULAS = 3
 CAPACIDADE_BUFFER_LOCAL = 2
 CAPACIDADE_BUFFER_GLOBAL = 4
 MAX_CARGA_GLOBAL = 2      # Capacidade MÁXIMA do robô global
-PASSOS_SIMULACAO = 15
-CHANCE_CONCLUSAO = 0.20    # Probabilidade de uma máquina terminar o processamento no ciclo
+PASSOS_SIMULACAO = 1000
+CHANCE_CONCLUSAO = 0.001    # Probabilidade de uma máquina terminar o processamento no ciclo
 
 class Maquina:
     def __init__(self, id_maq, id_celula):
