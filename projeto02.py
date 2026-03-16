@@ -7,7 +7,7 @@ NUM_CELULAS = 3
 CAPACIDADE_BUFFER_LOCAL = 2
 CAPACIDADE_BUFFER_GLOBAL = 4
 MAX_CARGA_GLOBAL = 2      # Capacidade MÁXIMA do robô global
-PASSOS_SIMULACAO = 1000
+PASSOS_SIMULACAO = 10
 CHANCE_CONCLUSAO = 0.001    # Probabilidade de uma máquina terminar o processamento no ciclo
 
 class Maquina:
@@ -78,7 +78,7 @@ class Fabrica:
     def __init__(self):
         self.celulas = [CelulaManufatura(i) for i in range(NUM_CELULAS)]
         
-        # Robô Global agora tem uma variável de carga dinâmica
+        # Robô Global 
         self.g_free = True
         self.g_mov = False
         self.g_carga = 0
